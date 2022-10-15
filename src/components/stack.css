@@ -1,0 +1,16 @@
+.stackListWrap {
+    display: flex;
+}
+
+.stackWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 23px;
+    margin: 15px;
+}
+
+.stackTitle {
+    margin-top: 10px;
+}
