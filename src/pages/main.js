@@ -4,6 +4,7 @@ import Stack from '../components/stack'
 import Contact from '../components/contact'
 import Project from '../components/project'
 import Copyright from '../components/copyright'
+import Career from '../components/career'
 import Header from '../components/header'
 
 const Main = () => {
@@ -14,6 +15,7 @@ const Main = () => {
         <About/>
         <Stack/>
         <Project/>
+        <Career/>
         <Contact/>
         <Copyright/>
         </>

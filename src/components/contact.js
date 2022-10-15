@@ -5,7 +5,7 @@ const Contact = () => {
     return (
       <>
         <Wrap>
-            <Number>4</Number>
+            <Number>5</Number>
             <Title>소셜 📞<br/></Title>
             <ContactWrap background="#16d60fff" border="#12b90c">
                 <ContactTitle>Github</ContactTitle>

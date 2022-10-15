@@ -1,14 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const About = () => {
+const Career = () => {
     return (
       <>
         <Wrap>
-            <Number>1</Number>
-            <Title>안녕하세요 👋</Title>
-            <Description>저는 한번에 버그 없이 코드를 짜는 데에는 재능이 없지만, <br/>버그를 맞닥뜨리면 다양한 해결방법을 생각하며 풀어나가는 것을 좋아하는 중학생 개발자입니다.</Description>
-            <BlogButton onClick={() => window.location.href = "https://blog.anojds.com"}>블로그</BlogButton>
+            <Number>4</Number>
+            <Title>Career ✨</Title>
+            <Description>2022년 SSF(선린인터넷고등학교 소프트웨어 나눔축제) 참가</Description>
         </Wrap>
       </>
     )
@@ -21,7 +20,7 @@ const Number = styled.span`
     position: relative;
     top: 80px;
     z-index: 0;
-    color: #0000003f;
+    color: #e73fed3f;
 `
 
 const Wrap = styled.div`
@@ -41,7 +40,7 @@ const Title = styled.span`
     font-size: 50px;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: bold;
-    color: #000;
+    color: #e73fed;
     margin-bottom: 10px;
     text-align: center;
     line-height: 55px;
@@ -55,15 +54,4 @@ const Description = styled.span`
     margin: 20px 20px 20px 20px;
 `
 
-const BlogButton = styled.span`
-    font-size: 20px;
-    color: #fff;
-    background-color: #0084ff;
-    padding: 10px 40px 10px 40px;
-    border-radius: 10px;
-    :hover {
-        cursor: pointer;
-    }
-`
-
-export default About
+export default Career
